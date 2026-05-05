@@ -1,0 +1,25 @@
+{
+  "slices": [
+    {
+      "id": "slice_01",
+      "input_vcf": "/root/data/slice_01.vcf.gz",
+      "source_region": "22:36000000-36500000",
+      "filter_sub_region": "22:36100000-36400000",
+      "locus": "APOL1/APOL2/APOL3/MYH9 (kidney-disease risk haplotypes)"
+    },
+    {
+      "id": "slice_02",
+      "input_vcf": "/root/data/slice_02.vcf.gz",
+      "source_region": "2:136400000-136900000",
+      "filter_sub_region": "2:136500000-136800000",
+      "locus": "LCT/MCM6 (lactase persistence)"
+    },
+    {
+      "id": "slice_03",
+      "input_vcf": "/root/data/slice_03.vcf.gz",
+      "source_region": "15:48200000-48700000",
+      "filter_sub_region": "15:48300000-48600000",
+      "locus": "SLC24A5 (skin-pigmentation)"
+    }
+  ]
+}

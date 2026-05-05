@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+author_name = "Adnan El Assadi"
+author_email = "adnan@tyce.ai"
+difficulty = "medium"
+difficulty_explanation = "Standard population-genetics filter applied to three 1000 Genomes Phase 3 slices with bcftools. The trap without the skills: --types snps alone lets multi-allelic SNV records through (you also need -m 2 -M 2), bare AF in -i expressions can match FORMAT/AF instead of INFO/AF, and bcftools has no abs() so the |AFR_AF - EAS_AF| condition has to be expanded into a disjunction."
+category = "healthcare"
+tags = ["bioinformatics", "genomics", "vcf", "bcftools", "1000-genomes", "population-genetics"]
+
+[verifier]
+timeout_sec = 300.0
+
+[agent]
+timeout_sec = 1200.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 4096
